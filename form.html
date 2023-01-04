@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitha Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to jamal er mar Pitha ghor</h2>
+    <form>
+        <label for="name">Your name
+         <input type="text" id="name" placeholder="Your name">
+        </label>
+        <label for="email">Your email
+            <input type="email" id="email" placeholder="Your email">
+        </label>
+        <label for="phone">Your mobile
+            <input type="number" id="phone" placeholder="Your Phone Number">
+        </label>
+        <fieldset>
+        <legend> Pick only one pitha </legend>
+            <label for="chitoi">
+            <input type="radio" name="pitha" id="chitoi">
+             Chitoi
+            </label>
+            <label for="dudhpuli">
+            <input type="radio" name="pitha" id="dudhpuli"> 
+            Dudhpuli
+            </label>
+            <label for="vapa">
+            <input type="radio" name="pitha" id="vapa"> 
+            Vapa
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend> Pick one or more vorta </legend>
+                <label for="sharisa">
+                <input type="checkbox" name="vorta" id="sharisa">
+                 sharisa
+                </label>
+                <label for="sutki">
+                <input type="checkbox" name="vorta" id="sutki"> 
+                sutki
+                </label>
+                <label for="alu">
+                <input type="checkbox" name="vorta" id="alu"> 
+                alu
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend> Special Instruction </legend>
+                    <textarea name="" id="" cols="50" rows="3"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="submit">
+    </form>
+</html>
